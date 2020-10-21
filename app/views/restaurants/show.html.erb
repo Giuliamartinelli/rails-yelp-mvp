@@ -1,7 +1,10 @@
 <h1><%= @restaurant.name %></h1>
-<%= @restaurant.address %>
-<%= @restaurant.category %>
-<%= @restaurant.phone_number %>
+<label>Restaurant's address:</label>
+<strong><%= @restaurant.address %></strong><br>
+<label>Restaurant's cuisine:</label>
+<strong><%= @restaurant.category %></strong><br>
+<label>Restaurant's phone number:</label>
+<strong><%= @restaurant.phone_number %></strong>
 
 <h4>Reviews</h4>
 <ul class="list-group">
