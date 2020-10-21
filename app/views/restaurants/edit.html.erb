@@ -1,0 +1,12 @@
+<h1>Update Restaurant</h1>
+<%= simple_form_for @restaurant do |f| %>
+  <label>Restaurant's name</label>
+  <%= f.text_field :name %><br>
+  <label>Restaurant's address</label>
+  <%= f.text_field :address %><br>
+  <label>Restaurant's category</label>
+  <%= f.text_field :category %><br>
+  <label>Restaurant's phone number</label>
+  <%= f.text_field :phone_number %><br>
+  <%= f.submit %>
+<% end %>

@@ -1,0 +1,8 @@
+<h1>Fake Yelp YOLO</h1>
+<ul>
+<% @restaurants.each do |restaurant| %>
+<li><%= link_to restaurant.name, restaurant %></li>
+<% end %>
+</ul>
+
+<%= link_to "New Restaurant", new_restaurant_path %>
